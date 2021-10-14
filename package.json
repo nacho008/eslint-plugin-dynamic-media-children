@@ -1,12 +1,12 @@
 {
-  "name": "eslint-plugin-dynamic-media-children",
+  "name": "@nacho008/eslint-plugin-dynamic-media-children",
   "version": "0.0.1",
-  "description": "",
+  "description": "README.md!",
   "main": "dist/index.js",
-  "author": "Juan Laquiz <github@attardi.org>",
+  "author": "Juan Laquiz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/steadicat/eslint-plugin-react-memo.git"
+    "url": "git+https://github.com/nacho008/eslint-plugin-dynamic-media-children.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -20,12 +20,16 @@
     "typescript": "^4.2.3"
   },
   "scripts": {
-    "test": "jest",
     "build": "rm -rf dist && rollup -c",
-    "prepublish:public": "npm run build && npm run bump-version",
+    "prepublish:public": "npm run build",
     "publish:public": "npm publish --access public"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/nacho008/eslint-plugin-dynamic-media-children/issues"
+  },
+  "homepage": "https://github.com/nacho008/eslint-plugin-dynamic-media-children#readme",
+  "dependencies": {}
 }
